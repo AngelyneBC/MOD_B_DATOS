@@ -1,6 +1,6 @@
 CREATE TABLE recepciones_campañas (
-    id_recepcion_campaña INT PRIMARY KEY,
-    recepcion_id INT,
+    id_recepcion_campaña INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    recepcion_id INTEGER NOT NULL,
     campaña_id VARCHAR(100) NOT NULL, 
 
     FOREIGN KEY (recepcion_id) REFERENCES recepciones(id_recepcion),

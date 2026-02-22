@@ -1,5 +1,5 @@
 CREATE TABLE asesores (
-    id_asesor INT PRIMARY KEY,
+    id_asesor INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
     nombres VARCHAR(60) NOT NULL,
     apellidos VARCHAR(60) NOT NULL
 );

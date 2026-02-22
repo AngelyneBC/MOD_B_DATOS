@@ -1,4 +1,4 @@
 CREATE TABLE bancos (
-    id_banco INT PRIMARY KEY,
+    id_banco INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
     nombre VARCHAR(100) NOT NULL
 );

@@ -1,9 +1,9 @@
 CREATE TABLE pagos (
-    id_pago INT PRIMARY KEY,
-    recepcion_id INT,
+    id_pago INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    recepcion_id INTEGER NOT NULL,
     monto FLOAT NOT NULL,
-    bancos_id INT,
-    formas_pago_id INT NOT NULL,
+    bancos_id INTEGER NOT NULL,
+    formas_pago_id INTEGER NOT NULL,
     
 
     FOREIGN KEY (recepcion_id) REFERENCES recepciones(id_recepcion),
