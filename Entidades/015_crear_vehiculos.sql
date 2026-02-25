@@ -1,7 +1,7 @@
 CREATE TABLE vehiculos (
     id_vehiculo INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
-    placa VARCHAR(6),
-    vin VARCHAR(17) NOT NULL,
+    placa VARCHAR(30),
+    vin VARCHAR(20) NOT NULL,
     color_id INTEGER NOT NULL,
     modelo_id INTEGER,
     gps_id INTEGER,

@@ -1,5 +1,5 @@
 CREATE TABLE campañas (
     id_campaña INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
-    nombre VARCHAR(30) NOT NULL,
+    nombre VARCHAR(50) NOT NULL,
     descuento FLOAT NOT NULL
 );
