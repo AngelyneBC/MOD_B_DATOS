@@ -1,13 +1,13 @@
 CREATE TABLE recepciones (
     id_recepcion INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
-    fecha_entrega DATE NOT NULL,
-    fecha_tarjeta DATE NOT NULL,
-    fecha_placa DATE NOT NULL,
-    fecha_recepcion DATE NOT NULL,
-    ubicacion_id INTEGER NOT NULL,
-    asesor_id INTEGER NOT NULL,
-    vehiculo_id INTEGER NOT NULL,
-    campaña_id INTEGER NOT NULL,
+    fecha_entrega DATE,
+    fecha_tarjeta DATE,
+    fecha_placa DATE,
+    fecha_recepcion DATE,
+    ubicacion_id INTEGER,
+    asesor_id INTEGER,
+    vehiculo_id INTEGER,
+    campaña_id INTEGER,
 
 
     FOREIGN KEY (ubicacion_id) REFERENCES ubicaciones(id_ubicacion),
