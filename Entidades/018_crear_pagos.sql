@@ -8,5 +8,5 @@ CREATE TABLE pagos (
 
     FOREIGN KEY (recepcion_id) REFERENCES recepciones(id_recepcion),
     FOREIGN KEY (bancos_id) REFERENCES bancos(id_banco),
-    FOREIGN KEY (formas_pago_id) REFERENCES formas_pago(id_forma_pago)
+    FOREIGN KEY (formas_pago_id) REFERENCES formaPago(id_forma_pago)
 );

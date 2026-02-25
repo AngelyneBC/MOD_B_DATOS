@@ -1,4 +1,4 @@
 CREATE TABLE telefonos (
     id_telefono INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
-    numero VARCHAR(30) NOT NULL,
+    numero VARCHAR(30) NOT NULL
 );
